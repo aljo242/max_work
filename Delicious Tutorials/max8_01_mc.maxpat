@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 84.0, 527.0, 705.0 ],
+		"rect" : [ 41.0, 84.0, 1024.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -154,8 +154,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 591.0, 424.0, 134.0, 22.0 ],
-					"text" : "mc.sig~ 0.5 @chans 10"
+					"patching_rect" : [ 591.0, 424.0, 128.0, 22.0 ],
+					"text" : "mc.sig~ 0.5 @chans 4"
 				}
 
 			}
@@ -249,8 +249,8 @@
 						"originaltempo" : 120.0,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
-						"pitchshift" : [ 0.01 ],
-						"pitchshiftcent" : [ -7973 ],
+						"pitchshift" : [ 3.71987018123923 ],
+						"pitchshiftcent" : [ 2274 ],
 						"quality" : "basic",
 						"timestretch" : [ 1 ]
 					}

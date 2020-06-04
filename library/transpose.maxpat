@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 84.0, 699.0, 705.0 ],
+		"rect" : [ 583.0, 165.0, 699.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -143,7 +143,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 4.0, 463.0, 50.0, 22.0 ],
-					"text" : "680"
+					"text" : "1080"
 				}
 
 			}
@@ -197,6 +197,7 @@
 					"prototypename" : "transp",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Transp",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 7,
 							"parameter_linknames" : 1,
@@ -204,8 +205,7 @@
 							"parameter_longname" : "live.numbox[3]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 12.0,
-							"parameter_initial" : [ 0 ],
-							"parameter_shortname" : "Transp"
+							"parameter_initial" : [ 0 ]
 						}
 
 					}
@@ -239,6 +239,7 @@
 					"prototypename" : "transp",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Transp",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 7,
 							"parameter_linknames" : 1,
@@ -246,8 +247,7 @@
 							"parameter_longname" : "live.numbox[2]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 12.0,
-							"parameter_initial" : [ 0 ],
-							"parameter_shortname" : "Transp"
+							"parameter_initial" : [ 0 ]
 						}
 
 					}
@@ -281,6 +281,7 @@
 					"prototypename" : "transp",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Transp",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 7,
 							"parameter_linknames" : 1,
@@ -288,8 +289,7 @@
 							"parameter_longname" : "live.numbox[1]",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 12.0,
-							"parameter_initial" : [ 0 ],
-							"parameter_shortname" : "Transp"
+							"parameter_initial" : [ 0 ]
 						}
 
 					}
@@ -359,6 +359,7 @@
 					"prototypename" : "transp",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_shortname" : "Transp",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 7,
 							"parameter_linknames" : 1,
@@ -366,8 +367,7 @@
 							"parameter_longname" : "live.numbox",
 							"parameter_initial_enable" : 1,
 							"parameter_mmax" : 12.0,
-							"parameter_initial" : [ 0 ],
-							"parameter_shortname" : "Transp"
+							"parameter_initial" : [ 0 ]
 						}
 
 					}
@@ -759,9 +759,9 @@
  ],
 		"parameters" : 		{
 			"obj-19" : [ "live.numbox[1]", "Transp", 0 ],
+			"obj-23" : [ "live.numbox[3]", "Transp", 0 ],
 			"obj-15" : [ "live.numbox", "Transp", 0 ],
 			"obj-21" : [ "live.numbox[2]", "Transp", 0 ],
-			"obj-23" : [ "live.numbox[3]", "Transp", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -777,7 +777,7 @@
 			}
 , 			{
 				"name" : "alexdac.maxpat",
-				"bootpath" : "C:/Max",
+				"bootpath" : "C:/max_work/library",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -791,7 +791,7 @@
 , 			{
 				"name" : "transratio.maxpat",
 				"bootpath" : "~/AppData/Roaming/Cycling '74/Max 8/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
-				"patcherrelativepath" : "../Users/quaza/AppData/Roaming/Cycling '74/Max 8/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"patcherrelativepath" : "../../Users/shmoop/AppData/Roaming/Cycling '74/Max 8/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
