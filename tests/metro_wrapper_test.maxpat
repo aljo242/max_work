@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1468.0, 713.0 ],
+		"rect" : [ 41.0, 84.0, 1468.0, 713.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 267.0, 221.0, 73.0, 22.0 ],
+					"patching_rect" : [ 258.0, 221.0, 73.0, 22.0 ],
 					"text" : "cycle~ 1000"
 				}
 
@@ -462,14 +462,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "alexdac.maxpat",
-				"bootpath" : "C:/dev/max_work/library",
+				"bootpath" : "C:/max_work/library",
 				"patcherrelativepath" : "../library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "metro++.maxpat",
-				"bootpath" : "C:/dev/max_work/library",
+				"bootpath" : "C:/max_work/library",
 				"patcherrelativepath" : "../library",
 				"type" : "JSON",
 				"implicit" : 1
